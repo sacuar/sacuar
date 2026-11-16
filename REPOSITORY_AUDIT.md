@@ -44,7 +44,7 @@ Keep forks if they contain useful changes or are needed for existing work. Archi
 
 ## Name / link needing clarification
 
-**Screen CaptureForge**: No repository with that name (or an obvious CaptureForge variant) was located under `sacuar` in public GitHub search. **Pointframe is not silently renamed to CaptureForge** because it is a credited upstream fork. Add the correct Screen CaptureForge repository URL once it is available.
+**Screen CaptureForge**: The owner confirms this application was built locally **but has not been uploaded to GitHub**. Do not create a misleading download link, claim it has been tested here, or rename the unrelated Pointframe fork. A new repository can be published after the owner supplies the existing project files (source, documentation and real screenshots).
 
 The similarly named `sacuar/iptv` was not accessible through the current GitHub read action. Its contents were not verified and **no duplicate claim or cleanup was made**.
 
