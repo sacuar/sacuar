@@ -24,6 +24,12 @@ I build practical desktop tools, media utilities and small developer projects. I
 | [![BANG IPTV Windows screenshot](https://raw.githubusercontent.com/sacuar/MyIPTV/main/screenshots/scr2.png)](https://github.com/sacuar/MyIPTV) |
 | [View BANG IPTV](https://github.com/sacuar/MyIPTV) |
 
+### Built locally — not yet published on GitHub
+
+**Screen CaptureForge** — my own screen-capture software project, already built locally. Its source code, verified screenshots and installers have **not yet been uploaded** to a GitHub repository. I will publish a dedicated project page after I prepare the files and documentation.
+
+This is a separate project from [Pointframe](https://github.com/sacuar/Pointframe), which is a fork of another developer's software.
+
 ### Screenshots and related upstream projects
 
 - [Pointframe (fork)](https://github.com/sacuar/Pointframe) — screen-capture and recording software originally maintained by [dimitar-radenkov](https://github.com/dimitar-radenkov/Pointframe). **Not claimed as my original software.**
