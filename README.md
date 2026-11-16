@@ -29,6 +29,10 @@ I build practical desktop tools, media utilities and small developer projects. I
 - [Pointframe (fork)](https://github.com/sacuar/Pointframe) — screen-capture and recording software originally maintained by [dimitar-radenkov](https://github.com/dimitar-radenkov/Pointframe). **Not claimed as my original software.**
 - Other experiments, tutorials and archived references remain visible in my [repository list](https://github.com/sacuar?tab=repositories).
 
+### Repository cleanup and project status
+
+[**View the repository audit and cleanup checklist**](REPOSITORY_AUDIT.md) — verified changes, empty-repo candidates, third-party forks and remaining manual decisions.
+
 ### Contributions welcome
 
 I'm especially interested in collaborators who enjoy improving Windows packaging, responsive editor interfaces, regression tests, documentation, accessibility and plugin systems. If you would like to help, start with [Lumen's contribution guide](https://github.com/sacuar/Lumen/blob/main/CONTRIBUTING.md) or open an issue in the relevant repository.
