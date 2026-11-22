@@ -1,49 +1,61 @@
 <div align="center">
 
-# SACUAR · Desktop software
+# SACUAR TOOLS
 
-**Practical open-source tools for everyday work.**
+### Useful desktop tools. Focused workflows. No unnecessary complexity.
 
-File management · Photography · Capture & OCR · Code editing
+**File management · Photography · Screen capture & OCR · Text and code editing**
 
-[Explore projects](#desktop-applications) · [Report a problem](#feedback--contributions) · [Support development](https://buymeacoffee.com/sacuar)
+[Explore the applications](#desktop-applications) · [Get the right download](#download-and-safety) · [Contribute](#contribute) · [Support the projects](https://buymeacoffee.com/sacuar)
 
 </div>
 
 ## Desktop applications
 
-| [Folder](https://github.com/sacuar/folder) | [Quick Photo Viewer](https://github.com/sacuar/quick_photo_viewer) |
+A small family of independently developed Windows-focused tools. Each project has its own repository, release notes, limitations and development roadmap.
+
+| **Folder** | **Quick Photo Viewer** |
 |:---|:---|
-| [![Folder workspace](https://github.com/sacuar/folder/releases/latest/download/workspace.png)](https://github.com/sacuar/folder) | [![Quick Photo Viewer workspace](https://github.com/sacuar/quick_photo_viewer/releases/latest/download/workspace.png)](https://github.com/sacuar/quick_photo_viewer) |
-| Tabbed file manager, thumbnails, preview pane and customisable workspace. | Local photo browsing, zoom, fullscreen and image tools. |
-| [![Latest release](https://img.shields.io/github/v/release/sacuar/folder?label=Folder)](https://github.com/sacuar/folder/releases) · [Documentation](https://github.com/sacuar/folder#readme) | [![Latest release](https://img.shields.io/github/v/release/sacuar/quick_photo_viewer?label=QPV)](https://github.com/sacuar/quick_photo_viewer/releases) · [Documentation](https://github.com/sacuar/quick_photo_viewer#readme) |
+| [![Folder artwork](https://raw.githubusercontent.com/sacuar/folder/main/assets/brand-cover.svg)](https://github.com/sacuar/folder) | [![Quick Photo Viewer artwork](https://raw.githubusercontent.com/sacuar/quick_photo_viewer/main/assets/brand-cover.svg)](https://github.com/sacuar/quick_photo_viewer) |
+| Tabbed file management, supported file previews and a configurable workspace. | Fast local photo browsing, zoom, rotation and distraction-free viewing. |
+| **[Explore Folder](https://github.com/sacuar/folder)** · [Downloads](https://github.com/sacuar/folder/releases) | **[Explore Quick Photo Viewer](https://github.com/sacuar/quick_photo_viewer)** · [Downloads](https://github.com/sacuar/quick_photo_viewer/releases) |
 
-| [Lumen](https://github.com/sacuar/Lumen) | [CaptureForge](https://github.com/sacuar/captureforge) |
+| **CaptureForge** | **Lumen** |
 |:---|:---|
-| [![Lumen editor screenshot](https://raw.githubusercontent.com/sacuar/Lumen/main/docs/screenshots/Capture1.png)](https://github.com/sacuar/Lumen) | Native C++ / Qt screen capture, annotation and local OCR. |
-| Keyboard-first code and text editor. | Region capture, image tools, global shortcuts, Tesseract and Windows OCR. |
-| [![Latest release](https://img.shields.io/github/v/release/sacuar/Lumen?label=Lumen)](https://github.com/sacuar/Lumen/releases) · [Documentation](https://github.com/sacuar/Lumen#readme) | [![Latest release](https://img.shields.io/github/v/release/sacuar/captureforge?label=CaptureForge)](https://github.com/sacuar/captureforge/releases) · [Documentation](https://github.com/sacuar/captureforge#readme) |
+| [![CaptureForge artwork](https://raw.githubusercontent.com/sacuar/captureforge/main/assets/brand-cover.svg)](https://github.com/sacuar/captureforge) | [![Lumen artwork](https://raw.githubusercontent.com/sacuar/Lumen/main/assets/brand-cover.svg)](https://github.com/sacuar/Lumen) |
+| Screenshot capture, annotation and local OCR in a native Qt app. Windows verification in progress. | Keyboard-first text and code editing. Early development. |
+| **[Explore CaptureForge](https://github.com/sacuar/captureforge)** · [Downloads](https://github.com/sacuar/captureforge/releases) | **[Explore Lumen](https://github.com/sacuar/Lumen)** · [Downloads](https://github.com/sacuar/Lumen/releases) |
 
-## Downloads & quality
+> Artwork above is project branding, **not application screenshots**. See individual repositories for interface captures where available.
 
-Download packaged releases from each project's official GitHub Releases page. Build checks, release notes, SHA-256 files where provided, and known limitations live in the corresponding repository. Windows packages are available; cross-platform Folder support is being developed and tested. A successful build is not a guarantee of complete feature coverage. Unsigned Windows installers may trigger SmartScreen.
+## Choose a tool
 
-## Other projects
+| I want to… | Try this | Development status |
+|---|---|---|
+| Browse and organise folders with previews | [Folder](https://github.com/sacuar/folder) | Windows-first; review latest release notes |
+| View local photos quickly | [Quick Photo Viewer](https://github.com/sacuar/quick_photo_viewer) | Windows-first; check current installer and update notes |
+| Capture the screen and recognise text | [CaptureForge](https://github.com/sacuar/captureforge) | Development candidate; runtime verification pending |
+| Edit text and code with keyboard shortcuts | [Lumen](https://github.com/sacuar/Lumen) | Early development; incomplete extension compatibility |
 
-| Project | Purpose |
-|---|---|
-| [BANG IPTV](https://github.com/sacuar/MyIPTV) | Playlist-based media player |
-| [IPTV Stream Checker](https://github.com/sacuar/IPTV_stream_checker) | M3U stream diagnostics |
-| [FileOrganizer](https://github.com/sacuar/FileOrganizer) | File organisation scripts |
+## Download and safety
 
-[Pointframe](https://github.com/sacuar/Pointframe) is a fork of [dimitar-radenkov/Pointframe](https://github.com/dimitar-radenkov/Pointframe), not an original SACUAR application.
+1. Open the project's **official GitHub Releases** page from the cards above.
+2. Select the installer matching your system and read the release notes. Some projects may not yet have a verified downloadable build.
+3. Unsigned Windows installers can trigger SmartScreen. Check the publisher, release source and provided checksums, where available.
+4. Report install, upgrade or startup problems through the project's Issues page.
 
-## Feedback & contributions
+**Licensing:** Folder uses the [MIT licence](https://github.com/sacuar/folder/blob/main/LICENSE). Quick Photo Viewer, CaptureForge and Lumen have unresolved or missing redistribution licence terms; they must not be assumed to grant open-source reuse rights. Each application's own repository is authoritative.
 
-Open an issue in the relevant repository with the app version, OS, reproduction steps and screenshots where useful. Contributions to accessibility, packaging, tests, documentation and performance are welcome.
+## Contribute
 
-[Repository audit](REPOSITORY_AUDIT.md) · [All repositories](https://github.com/sacuar?tab=repositories)
+Feedback from real users is invaluable. Test the supported workflow, document a reproducible issue, propose a focused improvement or help verify Windows packaging. Before contributing code, consult each repository's contribution and licensing notes.
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-optional-FFDD00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/sacuar)
+**Project issues:** [Folder](https://github.com/sacuar/folder/issues) · [Quick Photo Viewer](https://github.com/sacuar/quick_photo_viewer/issues) · [CaptureForge](https://github.com/sacuar/captureforge/issues) · [Lumen](https://github.com/sacuar/Lumen/issues)
 
-*Projects and their dependencies retain their respective licences.*
+## More from SACUAR
+
+Explore the [other GitHub repositories](https://github.com/sacuar?tab=repositories), including Android, media and experimental projects. The four projects featured above are the current desktop-tool focus.
+
+[![Support ongoing development](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20development-FFDD00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/sacuar)
+
+<sub>Independent projects. Product artwork, documentation and release notes are maintained per repository. No affiliation with Microsoft or other software vendors is implied.</sub>
