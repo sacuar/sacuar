@@ -12,7 +12,7 @@
 
 ## Desktop applications
 
-A small family of independently developed Windows-focused tools. Each project has its own repository, release notes, limitations and development roadmap.
+A small family of independently developed desktop tools. Each project has its own repository, release notes, limitations and development roadmap.
 
 | **Folder** | **Quick Photo Viewer** |
 |:---|:---|
@@ -32,12 +32,12 @@ A small family of independently developed Windows-focused tools. Each project ha
 
 | I want to… | Try this | Development status |
 |---|---|---|
-| Browse and organise folders with previews | [Folder](https://github.com/sacuar/folder) | Windows-first; review latest release notes |
-| View local photos quickly | [Quick Photo Viewer](https://github.com/sacuar/quick_photo_viewer) | Windows-first; check current installer and update notes |
-| Capture the screen and recognise text | [CaptureForge](https://github.com/sacuar/captureforge) | Development candidate; runtime verification pending |
+| Browse and organise folders with previews | [Folder](https://github.com/sacuar/folder) | Windows; Ubuntu 24.04 x64 preview |
+| View local photos quickly | [Quick Photo Viewer](https://github.com/sacuar/quick_photo_viewer) | Windows; Ubuntu 24.04 x64 preview |
+| Capture the screen and recognise text | [CaptureForge](https://github.com/sacuar/captureforge) | Windows; Ubuntu 24.04 X11 preview |
 | Edit text and code with keyboard shortcuts | [Lumen](https://github.com/sacuar/Lumen) | Early development; incomplete extension compatibility |
 
-[**Website preview source**](docs/index.html) · [**Social launch checklist**](LAUNCH_CHECKLIST.md). The website is committed but GitHub Pages must be enabled in Settings → Pages to publish it.\n\n## Download and safety
+[**Website preview source**](docs/index.html) · [**Social launch checklist**](LAUNCH_CHECKLIST.md). The website is committed but GitHub Pages must be enabled in Settings → Pages to publish it.\n\n**Ubuntu availability:** Ubuntu 24.04 x64 builds for Folder, Quick Photo Viewer and CaptureForge are being packaged through GitHub Actions. For Ubuntu package instructions, see each application's README. CaptureForge screenshot capture targets X11, not Wayland. Do not treat preview ports as fully tested across Ubuntu desktops.\n\n## Download and safety
 
 1. Open the project's **official GitHub Releases** page from the cards above.
 2. Select the installer matching your system and read the release notes. Some projects may not yet have a verified downloadable build.
