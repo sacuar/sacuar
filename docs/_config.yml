@@ -1,0 +1,8 @@
+title: "SACUAR Tools"
+description: "Independent Windows and Ubuntu software for file browsing, photo viewing and screen capture."
+url: "https://sacuar.github.io"
+baseurl: "/sacuar"
+markdown: kramdown
+timezone: Europe/London
+exclude:
+  - README.md
