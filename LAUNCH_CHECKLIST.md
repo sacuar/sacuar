@@ -4,7 +4,7 @@ This document separates **verified repository content** from **launch tasks that
 
 ## Priority A — trust and working downloads
 - [ ] Run each Windows installer in a clean Windows 10/11 environment; record installer filename, architecture, checksum, launch test and uninstall result.
-- [ ] For Quick Photo Viewer, test the full update path starting with an existing 2.9.x installation and confirm displayed version matches the current release.
+- [x] For Quick Photo Viewer, run Windows CI installation upgrade **2.9.5 → 2.9.6**, check installed registry version and executable startup, then uninstall ([successful run](https://github.com/sacuar/quick_photo_viewer/actions/runs/45080988789)). The release's updater UI still merits manual Windows usability testing.
 - [ ] For Folder, test file opening, preview, tabs, keyboard controls and ordinary non-admin use.
 - [ ] For CaptureForge, run the native Qt build and OCR smoke test before promoting a stable installer.
 - [ ] For Lumen, test opening/saving projects and clarify the intended licence before seeking source contributors.
@@ -16,10 +16,10 @@ This document separates **verified repository content** from **launch tasks that
 - [x] Present all four projects on the GitHub profile homepage.
 - [ ] Add a short, real **screen recording** to each project. Never represent an illustration as an application screenshot.
 - [ ] Verify the release screenshots load when logged out; replace broken links with committed real screenshots if needed.
-- [ ] Add branded social preview images through each repository's GitHub settings.
-- [ ] Pin the four desktop applications on the GitHub profile.
+- [x] Add source artwork for 1280×640 social previews in each project's `assets/social-preview.svg`.\n- [ ] Upload a rasterised version through each repository's GitHub Settings → General → Social preview (settings access unavailable through current connection).
+- [ ] Pin the four desktop applications on the GitHub profile (requires manual GitHub profile settings).
 
-## Priority C — discoverability
+- [x] Commit a responsive portfolio site source at [`docs/index.html`](docs/index.html).\n- [ ] Enable GitHub Pages from the profile repository's main `/docs` folder and verify the live URL.\n- [x] Prepare launch messages and motion-graphics storyboard in [`LAUNCH_KIT.md`](LAUNCH_KIT.md).\n\n## Priority C — discoverability
 Repository descriptions to enter in GitHub Settings (manual metadata change; not yet applied):
 
 | Repository | Suggested description | Suggested topics |
