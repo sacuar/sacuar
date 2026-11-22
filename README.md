@@ -46,6 +46,8 @@ A small family of independently developed Windows-focused tools. Each project ha
 
 **Licensing:** Folder uses the [MIT licence](https://github.com/sacuar/folder/blob/main/LICENSE). Quick Photo Viewer, CaptureForge and Lumen have unresolved or missing redistribution licence terms; they must not be assumed to grant open-source reuse rights. Each application's own repository is authoritative.
 
+[**See the public release and launch checklist**](LAUNCH_CHECKLIST.md) — build verification, screenshots, GitHub metadata and community outreach.
+
 ## Contribute
 
 Feedback from real users is invaluable. Test the supported workflow, document a reproducible issue, propose a focused improvement or help verify Windows packaging. Before contributing code, consult each repository's contribution and licensing notes.
