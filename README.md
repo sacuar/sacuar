@@ -28,6 +28,16 @@ A small family of independently developed desktop tools. Each project has its ow
 
 > Artwork above is project branding, **not application screenshots**. See individual repositories for interface captures where available.
 
+## Real application screenshots
+
+These are actual screenshots generated from running application builds using synthetic sample files.
+
+| Folder — file browsing and previews | Quick Photo Viewer — photo workspace |
+|:---:|:---:|
+| [![Folder actual application workspace](https://github.com/sacuar/folder/releases/download/v0.7.9/workspace.png)](https://github.com/sacuar/folder#screenshots-and-first-look) | [![Quick Photo Viewer actual application workspace](https://github.com/sacuar/quick_photo_viewer/releases/download/v2.9.6/workspace.png)](https://github.com/sacuar/quick_photo_viewer#screenshots-and-first-look) |
+
+**Folder standout feature:** Play, pause, seek and adjust video audio directly in its built-in LibVLC preview pane. [See the feature overview](https://github.com/sacuar/folder#play-video-directly-inside-folder). The screenshot above shows the file workspace, not an active video frame. A verified playback capture remains a separate task.
+
 ## Choose a tool
 
 | I want to… | Try this | Development status |
