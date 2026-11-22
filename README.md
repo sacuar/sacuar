@@ -10,6 +10,14 @@
 
 </div>
 
+## Latest articles
+
+**[Folder: a file manager with built-in video playback](docs/_posts/2026-11-22-folder-video-preview.md)** — Play, pause and seek videos in the preview pane without launching an external media player.
+
+[Quick Photo Viewer: distraction-free photo browsing](docs/_posts/2026-11-22-quick-photo-viewer.md) · [CaptureForge: annotation and on-device OCR](docs/_posts/2026-11-22-captureforge-ocr.md) · [Software directory submission pack](SOFTWARE_DIRECTORY_SUBMISSIONS.md)
+
+The articles are published as GitHub source files. The standalone website still requires GitHub Pages to be enabled before its blog URLs become live.
+
 ## Desktop applications
 
 A small family of independently developed desktop tools. Each project has its own repository, release notes, limitations and development roadmap.
