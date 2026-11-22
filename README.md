@@ -37,7 +37,7 @@ A small family of independently developed Windows-focused tools. Each project ha
 | Capture the screen and recognise text | [CaptureForge](https://github.com/sacuar/captureforge) | Development candidate; runtime verification pending |
 | Edit text and code with keyboard shortcuts | [Lumen](https://github.com/sacuar/Lumen) | Early development; incomplete extension compatibility |
 
-## Download and safety
+[**Website preview source**](docs/index.html) · [**Social launch checklist**](LAUNCH_CHECKLIST.md). The website is committed but GitHub Pages must be enabled in Settings → Pages to publish it.\n\n## Download and safety
 
 1. Open the project's **official GitHub Releases** page from the cards above.
 2. Select the installer matching your system and read the release notes. Some projects may not yet have a verified downloadable build.
