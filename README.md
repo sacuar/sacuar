@@ -1,52 +1,49 @@
-# Hi, I'm sacuar 👋
+<div align="center">
 
-I build practical desktop tools, media utilities and small developer projects. I'm refining my repositories into clearer, more reliable projects and welcoming useful contributions.
+# SACUAR · Desktop software
 
-**Featured software**
+**Practical open-source tools for everyday work.**
 
-| Project | What it does | Project / contribution |
-|---|---|---|
-| **[Lumen](https://github.com/sacuar/Lumen)** | Lightweight, keyboard-first Python/JavaScript text editor inspired by Sublime Text. Early development. | [Code and issues](https://github.com/sacuar/Lumen/issues) |
-| **[Quick Photo Viewer](https://github.com/sacuar/quick_photo_viewer)** | Fast Windows image viewer with local-only photo browsing, zoom, fullscreen and installer scripts. | [Code and issues](https://github.com/sacuar/quick_photo_viewer/issues) |
-| **[BANG IPTV](https://github.com/sacuar/MyIPTV)** | Windows VLC-based player for M3U playlists, channel management and link health checking. | [Releases](https://github.com/sacuar/MyIPTV/releases) |
-| **[IPTV Stream Checker](https://github.com/sacuar/IPTV_stream_checker)** | Separate M3U stream-checking utility. | [Project](https://github.com/sacuar/IPTV_stream_checker) |
-| **[FileOrganizer](https://github.com/sacuar/FileOrganizer)** | Python file-sorting script. Review the source and run on test folders first. | [Project](https://github.com/sacuar/FileOrganizer) |
+File management · Photography · Capture & OCR · Code editing
 
-### Project previews
+[Explore projects](#desktop-applications) · [Report a problem](#feedback--contributions) · [Support development](https://buymeacoffee.com/sacuar)
 
-| Lumen editor | Quick Photo Viewer |
-|:--:|:--:|
-| [![Lumen screenshot](https://raw.githubusercontent.com/sacuar/Lumen/main/docs/screenshots/Capture1.png)](https://github.com/sacuar/Lumen) | [![Quick Photo Viewer icon](https://raw.githubusercontent.com/sacuar/quick_photo_viewer/main/icons/quick_photo_viewer.png)](https://github.com/sacuar/quick_photo_viewer) |
-| [View Lumen](https://github.com/sacuar/Lumen) | [View Quick Photo Viewer](https://github.com/sacuar/quick_photo_viewer) |
+</div>
 
-| BANG IPTV Windows player |
-|:--:|
-| [![BANG IPTV Windows screenshot](https://raw.githubusercontent.com/sacuar/MyIPTV/main/screenshots/scr2.png)](https://github.com/sacuar/MyIPTV) |
-| [View BANG IPTV](https://github.com/sacuar/MyIPTV) |
+## Desktop applications
 
-### Built locally — not yet published on GitHub
+| [Folder](https://github.com/sacuar/folder) | [Quick Photo Viewer](https://github.com/sacuar/quick_photo_viewer) |
+|:---|:---|
+| [![Folder workspace](https://github.com/sacuar/folder/releases/latest/download/workspace.png)](https://github.com/sacuar/folder) | [![Quick Photo Viewer workspace](https://github.com/sacuar/quick_photo_viewer/releases/latest/download/workspace.png)](https://github.com/sacuar/quick_photo_viewer) |
+| Tabbed file manager, thumbnails, preview pane and customisable workspace. | Local photo browsing, zoom, fullscreen and image tools. |
+| [![Latest release](https://img.shields.io/github/v/release/sacuar/folder?label=Folder)](https://github.com/sacuar/folder/releases) · [Documentation](https://github.com/sacuar/folder#readme) | [![Latest release](https://img.shields.io/github/v/release/sacuar/quick_photo_viewer?label=QPV)](https://github.com/sacuar/quick_photo_viewer/releases) · [Documentation](https://github.com/sacuar/quick_photo_viewer#readme) |
 
-**Screen CaptureForge** — my own screen-capture software project, already built locally. Its source code, verified screenshots and installers have **not yet been uploaded** to a GitHub repository. I will publish a dedicated project page after I prepare the files and documentation.
+| [Lumen](https://github.com/sacuar/Lumen) | [CaptureForge](https://github.com/sacuar/captureforge) |
+|:---|:---|
+| [![Lumen editor screenshot](https://raw.githubusercontent.com/sacuar/Lumen/main/docs/screenshots/Capture1.png)](https://github.com/sacuar/Lumen) | Native C++ / Qt screen capture, annotation and local OCR. |
+| Keyboard-first code and text editor. | Region capture, image tools, global shortcuts, Tesseract and Windows OCR. |
+| [![Latest release](https://img.shields.io/github/v/release/sacuar/Lumen?label=Lumen)](https://github.com/sacuar/Lumen/releases) · [Documentation](https://github.com/sacuar/Lumen#readme) | [![Latest release](https://img.shields.io/github/v/release/sacuar/captureforge?label=CaptureForge)](https://github.com/sacuar/captureforge/releases) · [Documentation](https://github.com/sacuar/captureforge#readme) |
 
-This is a separate project from [Pointframe](https://github.com/sacuar/Pointframe), which is a fork of another developer's software.
+## Downloads & quality
 
-### Screenshots and related upstream projects
+Download packaged releases from each project's official GitHub Releases page. Build checks, release notes, SHA-256 files where provided, and known limitations live in the corresponding repository. Windows packages are available; cross-platform Folder support is being developed and tested. A successful build is not a guarantee of complete feature coverage. Unsigned Windows installers may trigger SmartScreen.
 
-- [Pointframe (fork)](https://github.com/sacuar/Pointframe) — screen-capture and recording software originally maintained by [dimitar-radenkov](https://github.com/dimitar-radenkov/Pointframe). **Not claimed as my original software.**
-- Other experiments, tutorials and archived references remain visible in my [repository list](https://github.com/sacuar?tab=repositories).
+## Other projects
 
-### Repository cleanup and project status
+| Project | Purpose |
+|---|---|
+| [BANG IPTV](https://github.com/sacuar/MyIPTV) | Playlist-based media player |
+| [IPTV Stream Checker](https://github.com/sacuar/IPTV_stream_checker) | M3U stream diagnostics |
+| [FileOrganizer](https://github.com/sacuar/FileOrganizer) | File organisation scripts |
 
-[**View the repository audit and cleanup checklist**](REPOSITORY_AUDIT.md) — verified changes, empty-repo candidates, third-party forks and remaining manual decisions.
+[Pointframe](https://github.com/sacuar/Pointframe) is a fork of [dimitar-radenkov/Pointframe](https://github.com/dimitar-radenkov/Pointframe), not an original SACUAR application.
 
-### Contributions welcome
+## Feedback & contributions
 
-I'm especially interested in collaborators who enjoy improving Windows packaging, responsive editor interfaces, regression tests, documentation, accessibility and plugin systems. If you would like to help, start with [Lumen's contribution guide](https://github.com/sacuar/Lumen/blob/main/CONTRIBUTING.md) or open an issue in the relevant repository.
+Open an issue in the relevant repository with the app version, OS, reproduction steps and screenshots where useful. Contributions to accessibility, packaging, tests, documentation and performance are welcome.
 
-I prefer small, reviewable changes and honest release notes over untested feature promises.
+[Repository audit](REPOSITORY_AUDIT.md) · [All repositories](https://github.com/sacuar?tab=repositories)
 
-### Support
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-optional-FFDD00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/sacuar)
 
-[☕ Buy Me a Coffee](https://buymeacoffee.com/sacuar) — entirely optional. Credit and thoughtful bug reports are appreciated too.
-
-*Software and third-party dependencies keep their respective licences. Please check each repository's licence and release status before redistributing.*
+*Projects and their dependencies retain their respective licences.*
